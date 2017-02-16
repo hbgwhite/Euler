@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Euler_11.cs" />
-    <Compile Include="Euler_12.cs" />
+    <Compile Include="Euler11.cs" />
+    <Compile Include="Euler12.cs" />
     <Compile Include="IEuler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
