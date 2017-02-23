@@ -10,7 +10,8 @@ namespace Euler
         private static void Main(string[] args)
         {
             //var euler11 = new Euler11().Execute();
-            Console.WriteLine($"Euler11: {(new Euler12().Execute())}");
+            //Console.WriteLine($"Euler12: {(new Euler12().Execute())}");
+            Console.WriteLine($"Euler13: {(new Euler13().Execute())}");
             Console.ReadKey();
         }
     }
