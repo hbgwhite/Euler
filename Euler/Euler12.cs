@@ -10,7 +10,7 @@ namespace Euler
             var add = 2;
             while (!(NumberOfDivisors(triangles) > 500))
             {
-                triangles = triangles+add++;
+                triangles = triangles + add++;
             }
             return triangles;
         }
@@ -23,7 +23,7 @@ namespace Euler
             {
                 if (value % factor == 0)
                 {
-                    factorCount = (factor != value / factor)
+                    factorCount = factor != value / factor
                         ? factorCount + 2
                         : factorCount + 1;
                 }

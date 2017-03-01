@@ -9,6 +9,7 @@ namespace Euler.Utilities
             list.Add(value);
             return list;
         }
+
         public static List<int> AddAndReturn(this List<int> list, IList<int> values)
         {
             list.AddRange(values);
